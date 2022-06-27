@@ -42,7 +42,7 @@ const Registration = () => {
             name="password"
             placeholder="password"
           />
-          <button type="submit">Register</button>
+          <button type="submit">Register Please</button>
         </Form>
       </Formik>
     </div>

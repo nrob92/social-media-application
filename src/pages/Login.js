@@ -10,7 +10,7 @@ const Login = () => {
   const { setAuthState } = useContext(AuthContext);
 
   const login = () => {
-    const data = { username, password };
+    const data = { username: username, password: password };
     axios.post("http://localhost:3001/auth/login", data).then((res) => {
       if (res.data.error) {
         alert(res.data.error);
